@@ -52,34 +52,97 @@
   </style>
 
   <div class="container p-5" style="background-color: #fff">
-    <h1 class="text-center">Plataforma en donde podrás encontrar skins de las Stores más confiables de Argentina.</h1>
-    <br>
-    <br>
-    <h3><strong>Basta de planillas Excel!</strong></h3>
-    <p class="lead">Actualmente los usuarios abren cierta cantidad de planillas para poder adquirir una Skin. Muchas veces las Stores no mantienen su planilla actualizada en tiempo real por decirlo de una manera, lo que dificulta poder realizar la transacción y efectuar la venta.</p>
-    <br>
-    <h3><strong>Nuestra plataforma lo que brinda a las Stores es un servicio de compra ágil y sin vueltas.</strong></h3>
-    <p class="lead">Te damos una manera facil de importar items de tu inventario a nuestra base de datos para ser comercializadas.</p>
+
+    <p class="lead">Lo que se busca es reducir los intentos de estafa al centralizar todo en un solo lugar, logramos que los usuarios puedan encontrar todas las skins en un solo sitio brindada por las Stores más confiables. Compras ágiles sin vueltas.</p>
 
     <br>
+    <hr>
+    <br>
+
     <h4><strong>Ofrecemos:</strong></h4>
+    <div class="row">
 
-      <h4>Control de ventas <i class="fa fa-check"></i> </h4>
-      <h4>Control automático y actualizado de stock <i class="fa fa-check"></i> </h4>
-      <h4>Compras Online <i class="fa fa-check"></i> </h4>
+      <div class="col-sm-12 col-md-6 col-lg-12">
+        <li>Control de ventas <i class="fa fa-check"></i></li>
+        <li>Control automático de stock <i class="fa fa-check"></i></li>
+        <li>Pagos Online <i class="fa fa-check"></i></li>
+      </div>
+
+      <div class="col-sm-12 col-md-6 col-lg-12">
+
+      </div>
+
+    </div>
+
+
+      <br>
+      <hr>
+      <br>
+      <h3><strong>Preguntas frecuentes:</strong></h3>
+      <br>
+      <h5>1. ¿Hay algun riesgo en utilizar la API de Steam en la plataforma?</h5>
+      <p>No en lo absoluto, solo utilizamos la API para acceder a los artículos que hay en el inventario a partir del SteamID, es información pública de caracter visible siempre y cuando la configuración de privacidad del inventario de una cuenta lo permita.</p>
 
       <br>
 
-      <p class="lead">Lo que se busca es reducir los intentos de estafa al centralizar todo en un solo lugar, logramos que los usuarios puedan encontrar todas las skins en un solo sitio brindada por las mejores stores.</p>
+      <h5>2. ¿Al importar artículos de mi inventario en el sitio, se realiza el intercambio con un BOT o se transfieren a una cuenta administrada por la Plataforma?</h5>
+      <p>No, la plataforma no utiliza BOTS, ni siquiera manejamos cuentas de Steam para el depósito de skins, en ningún momento se realizan intercambios automatizados. Cuando una Store hace la importación de un artículo al sitio almacenamos los datos del mismo (nombre, float, imagen, tradelock, etc). El artículo siempre permanecerá en el inventario de la cuenta de Steam de la Store.</p>
 
       <br>
 
-      <h4 class="text-center"><strong>A continuación detallaremos algunas características</strong></h4>
+      <h5>3. ¿Cuando un usuario realiza una compra, el dinero a dónde llega?</h5>
+      <p>Las Stores podrán operar sobre los métodos de pago que les plazca siempre y cuando la plataforma cuente con esos métodos. Cuando un usuario realiza una compra el dinero se transfiere directamente en la cuenta de dicha Store.</p>
+
+      <br>
+
+      <h5>4. ¿Qué sucede si realizo una venta por fuera de una Skin que ya está publicada dentro del sitio?</h5>
+      <p>En caso de que eso suceda en el panel administrativo habrá un listado con todas las skins publicadas, junto con una opción para darlas de baja. Es importante que cada Store realice ésta operación manualmente para evitar vender artículos inexistentes</p>
+
+      <br>
+
+      <h5>5. ¿Es seguro que los usuarios hagan la compra directa dentro del sitio? ¿Hay riesgos de seguridad?</h5>
+      <p>Completamente seguro, utilizamos librerías oficiales para desarrollar ésta funcionalidad. Cuando un usuario realiza un pago se abre una ventana que redirige al sitio oficial del método escogido que puede ser verificado por el dominio.</p>
+
+      <br>
+
+      <h5>6. ¿Cuando un usuario realiza una compra, debo de actualizar el stock de los articulos que adquirió?</h5>
+      <p>No, no es necesario realizar nada, el stock se actualiza de forma automática, además las Stores no podrán ingresar artículos duplicados. El único control manual que deberán hacer las Stores es cuando venden por fuera de la plataforma explicado en la pregunta 4.</p>
+
+      <br>
+
+      <h5>7. ¿Como me entero que algún usuario realizó alguna compra?</h5>
+      <p>Varias formas, en primer instancia te lo haremos saber enviandote un correo electrónico automatizado con los detalles de la compra. Además, recibirás el correo oficial de MercadoPago o PayPal sobre la transferencia.</p>
+
+      <br>
+
+      <h5>8. ¿De qué manera puedo fijarme cuando debo realizar algun intercambio por una venta?</h5>
+      <p>Cada Store dispondrá de un listado con todas las ventas realizadas con un estado <strong>Pendiente de trade</stong>. Puedes verificar realmente si el usuario pagó por dichos artículos por el <strong>identificador de pago</strong> que se detalla en su compra.</p>
+
+      <br>
+
+      <h5>9. ¿Qué datos necesito dar para incluirme en la Plataforma?</h5>
+
+      <ul>
+        <li>Redes sociales de la Store</li>
+        <li>SteamID de la cuenta a utilizar</li>
+        <li>Métodos de pago aceptados</li>
+      </ul>
+
+      <br>
+
+      <h5>10. ¿Cualquiera que entre al sitio podrá registrarse como Store y comenzar a vender?</h5>
+      <p>No, la idea es incluir únicamente a las Stores más confiables y activas del grupo, no se descarta la posilibidad de con el tiempo se incorporen nuevas, pero para ello deberán cumplir una serie de requisitos previos.</p>
+
+      <br>
+
   </div>
 
 
   <div class="box">
     <div class="container">
+
+      <h4 class="text-center"><strong>A continuación detallaremos algunas características</strong></h4>
+
      	<div class="row">
 
 			    <div class="col-lg-4 col-md-12 col-sm-12">
@@ -110,7 +173,7 @@
            </div>
 
            <div class="text">
-             <span>Todo lo que necesitas para administrar tu negocio de forma facil e intuitiva accediendo desde cualquier parte.</span>
+             <span>Todo lo que necesitas para administrar tu Store de forma fácil e intuitiva accediendo desde cualquier parte.</span>
            </div>
 
           </div>
@@ -144,7 +207,7 @@
           </div>
 
           <div class="text">
-            <span>En todo negocio es importante llevar el control total de las ventar. Podrás filtrar aquellas pendientes para realizar el intercambio correspondiente.</span>
+            <span>En todo negocio es importante llevar el control total de las ventas. Podrás filtrar aquellas pendientes de trade para realizar el intercambio correspondiente.</span>
           </div>
 
          </div>
@@ -222,23 +285,23 @@
                         </li>
                         <li class="">
                             <span>Ventas Online</span>
-                              <i class="fa fa-question-circle" data-toggle="tooltip" data-placement="right" title="Las compras efectuadas por los usuarios se acreditarán instantáneamente en tu cuenta de MercadoPago."></i>
+                              <i class="fa fa-question-circle" data-toggle="tooltip" data-placement="right" title="Las compras efectuadas por los usuarios se acreditarán instantáneamente en tu cuenta correspondiente."></i>
                         </li>
                         <li class="">
                             <span>Cotizaciones</span>
-                              <i class="fa fa-question-circle" data-toggle="tooltip" data-placement="right" title="Podras realizar cotizaciones de los usuarios que quieran vender su skin o inventario."></i>
+                              <i class="fa fa-question-circle" data-toggle="tooltip" data-placement="right" title="Podras realizar cotizaciones de los usuarios que quieran vender sus artículos."></i>
                         </li>
                         <li class="">
                             <span>Banners</span>
-                              <i class="fa fa-question-circle" data-toggle="tooltip" data-placement="right" title="Los banners publicitarios serán en tamaño grande que también apareceran en la página de inicio."></i>
+                              <i class="fa fa-question-circle" data-toggle="tooltip" data-placement="right" title="Los banners publicitarios serán en tamaño medio y se situarán en nuestra página de inicio, será lo primero que verán los visitantes."></i>
                         </li>
                         <li class="">
                             <span>Reviews</span>
-                              <i class="fa fa-question-circle" data-toggle="tooltip" data-placement="right" title="Al concretar una venta los usuarios podrán realizar una review sobre la misma seleccionando puntaje y dejando un comentario, las reviews serán visualizadas en la página de tu Store."></i>
+                              <i class="fa fa-question-circle" data-toggle="tooltip" data-placement="right" title="Al concretar una venta los usuarios podrán realizar una review sobre la misma seleccionando puntaje y dejando un comentario, las reviews serán de caracter visible en la página de tu Store."></i>
                         </li>
                         <li class="">
                             <span>Sorteos remunerados</span>
-                              <i class="fa fa-question-circle" data-toggle="tooltip" data-placement="right" title="En simples palabras, podrás rifar skins, los usuarios al comprar un ticket generan una posibilidad, los sorteos tienen una fecha límite y deben realizarse en directo por alguna plataforma de streaming. La store debe hacer un clip del momento exacto del sorteo para publicarlo en nuestra plataforma fijando el ganador."></i>
+                              <i class="fa fa-question-circle" data-toggle="tooltip" data-placement="right" title="En simples palabras, podrás rifar skins, los usuarios al comprar un ticket generan una posibilidad, los sorteos tienen una fecha límite y deben realizarse en directo por alguna plataforma de streaming. La store debe hacer un clip del momento exacto del sorteo para publicarlo en nuestra plataforma fijando al ganador."></i>
                         </li>
 
                     </ul>
@@ -281,10 +344,10 @@
                             <i class="fa fa-check"></i>
                         </li>
                         <li class="">
-                            +9
+                            +15
                         </li>
                         <li class="">
-                            +0
+                            +6
                         </li>
                         <li class="">
                             <i class="fa fa-check"></i>
@@ -344,10 +407,10 @@
                             <i class="fa fa-check"></i>
                         </li>
                         <li class="">
-                            +21
+                            +27
                         </li>
                         <li class="">
-                            +2
+                            +9
                         </li>
                         <li class="">
                             <i class="fa fa-check"></i>
@@ -410,10 +473,10 @@
                             <i class="fa fa-check"></i>
                         </li>
                         <li class="">
-                            +39
+                            +42
                         </li>
                         <li class="">
-                            +5
+                            +15
                         </li>
                         <li class="">
                             <i class="fa fa-check"></i>
